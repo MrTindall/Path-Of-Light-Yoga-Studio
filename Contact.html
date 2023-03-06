@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>
+        Path of Light Yoga::Contact
+    </title>
+    <link rel="stylesheet" href="yoga.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact asks for user input such and when send now is clicked it take you to a confirmed webpage.">
+</head>
+
+<body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Classes.html">Classes</a></li>
+            <li><a href="Schedule.html">Schedule</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="content">
+        <h1><a href="index.html">Path of Light Yoga Studio</a></h1>
+    </header>
+
+<main>
+    <h2>Contact Path of Light Yoga Studio</h2> <br>
+    <p>Required fields are marked with an asterisk*</p>
+    <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+        <label for="myFName">* Name:</label>
+        <input type="text" name="myFName" id="myFName" required>
+
+        <label for="myEmail">* E-Mail:</label>
+        <input type="text" name="myEmail" id="email" required>
+
+        <label for="Hear">How did you hear about us?</label>
+        <input type="text" name="Hear" id="Hear" list="Choices">
+        <datalist id="Choices">
+            <option>Google</option>
+            <option>Bing</option>
+            <option>Facebook</option>
+            <option>Friend</option>
+            <option>Radio Ad</option>
+        </datalist>
+    <label for="Comments">* Comments</label>
+        <textarea id="Comments" name="Comments" rows="2" cols="20"></textarea>
+        <input type="submit" value="Send Now">
+    </form>
+   
+</main>
+<footer>
+    <div>
+        Copyright 2020 Path of Light Yoga Studio<br>
+        <a href= "Alex@Tindall.com">Alex@Tindall.com</a>
+    </div>
+
+</footer>
+</div>
+</body>
+</html>
+    
